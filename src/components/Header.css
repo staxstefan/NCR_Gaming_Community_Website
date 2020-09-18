@@ -48,7 +48,7 @@ div.navigationbar--items {
 }
 
 ul.navigationbar--menu {
-  display: flex;
+  display: flex!important;
   list-style: none;
 }
 

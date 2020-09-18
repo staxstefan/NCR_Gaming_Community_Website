@@ -15,7 +15,6 @@ const Header = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const handleClose = () => setClick(!click);
 
   return (
     <div className="navigationbar">
@@ -35,12 +34,12 @@ const Header = () => {
           }
         >
           <li className="navigationbar--item">
-            <Link to="/Portal" onClick={handleClose}>
+            <Link to="/Portal">
               <GiBlackBook /> Portal
             </Link>
           </li>
           <li className="navigationbar--item">
-            <Link to="/" target="_blank" onClick={handleClose}>
+            <Link to="/" target="_blank">
               <MdLocalGroceryStore /> NCR Store
             </Link>
           </li>
