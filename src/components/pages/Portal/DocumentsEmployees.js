@@ -2,7 +2,7 @@ import React from "react";
 
 const DocumentsEmployees = () => {
   return (
-    <h1>Hey</h1>
+    <h1>Documents For Paramedics</h1>
   );
 };
 

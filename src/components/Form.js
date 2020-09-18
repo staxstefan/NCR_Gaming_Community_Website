@@ -17,7 +17,7 @@ const Form = () => {
           />
         </div>
         <div className="form--content">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaYpuj5XRcBI4NnOdMxk85Nemm67dxBj4_eaYqeVacvWsarQ/viewform?embedded=true" width="640" height="1358" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe title="Application Form" src="https://docs.google.com/forms/d/e/1FAIpQLSeaYpuj5XRcBI4NnOdMxk85Nemm67dxBj4_eaYqeVacvWsarQ/viewform?embedded=true" width="640" height="1358" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
     </div>
